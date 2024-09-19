@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Actividades</title>
+    <title>Actividades y Notas</title>
     <link rel="stylesheet" href="styles.css"> 
-</head>
 <body>
-    <div class="container">
-        <h1>Agregar Actividad</h1>
-        <form id="activity-form">
-            <input type="text" id="activity-name" placeholder="Nombre de la actividad" required>
+    <div class="contenedor">
+        <h1>Agregar Actividad y Nota</h1>
+        <form id="formulario-actividad">
+            <input type="text" id="nombre-actividad" placeholder="Nombre de la actividad" required>
+            <input type="text" id="nota-actividad" placeholder="Nota de la actividad" required>
             <button type="submit">Agregar</button>
         </form>
-        <ul id="activity-list">
-            
-        </ul>
+
+        <table id="tabla-actividades">
+            <thead>
+                <tr>
+                    <th>Actividad</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
     </div>
 
     <script src="script.js"></script> 
-</body>
 </html>
