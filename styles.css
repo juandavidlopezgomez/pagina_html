@@ -141,6 +141,16 @@ button.editar {
     color: #2ecc71;
 }
 
+        
+        .nombre {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #0fe043;
+            font-weight: bold;
+        }
+    
+
 /* Animaciones */
 @keyframes fadeIn {
     0% {
