@@ -1,18 +1,28 @@
+<<<<<<< HEAD
 /* Estilos generales */
+=======
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 body {
     font-family: 'Arial', sans-serif;
     background-color: rgb(64, 196, 230); 
+=======
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2ecab0; 
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+<<<<<<< HEAD
 
 /* Contenedor principal */
 .contenedor {
@@ -22,10 +32,20 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 500px;
     animation: smoothFadeIn 0.6s ease-in-out;
+=======
+     .contenedor {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    animation: fadeIn 1s ease-in-out; 
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0
 }
 h1 {
     text-align: center;
     margin-bottom: 20px;
+<<<<<<< HEAD
     color: #2c3e50;
     font-size: 24px;
     font-weight: bold;
@@ -55,10 +75,38 @@ input[type="text"]:focus, input[type="number"]:focus {
 
 button {
     background-color: #3498db;
+=======
+    color: #333; 
+    font-size: 24px;
+}
+/* Estilo para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    transition: border 0.3s ease; 
+}
+input[type="text"]:focus {
+    border-color: #3498db; /
+}
+
+
+button {
+    background-color: #28a745; 
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0
     color: white;
     border: none;
     padding: 10px;
     font-size: 16px;
+<<<<<<< HEAD
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -101,11 +149,79 @@ button.editar {
     padding: 6px 12px;
     border: none;
     border-radius: 4px;
+=======
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+button:hover {
+    background-color: #218838; 
+}
+
+/* Estilo para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    animation: tableEnter 0.5s ease-in-out; 
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    transition: background-color 0.3s ease; 
+}
+th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+tbody tr {
+    background-color: #fafafa;
+}
+tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+tbody tr:hover {
+    background-color: #e1f5fe; 
+}
+tbody tr {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInRow 0.5s forwards;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0
 }
 
 button.eliminar {
     background-color: #e74c3c;
     color: white;
+<<<<<<< HEAD
     padding: 6px 12px;
     border: none;
     border-radius: 4px;
@@ -196,3 +312,67 @@ button.eliminar {
         transform: translateY(0);
     }
 }
+=======
+    border: none;
+    border-radius: 3px;
+}
+
+button.editar {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#promedio-container {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#promedio {
+    color: #2ecc71;
+}
+
+        
+        .nombre {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #0fe043;
+            font-weight: bold;
+        }
+    
+
+/* Animaciones */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes fadeInRow {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes tableEnter {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0

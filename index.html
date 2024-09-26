@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividades y Notas</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,12 +19,28 @@
         </form>
 
         <!-- Tabla de actividades -->
+=======
+    <link rel="stylesheet" href="styles.css"> 
+    
+</head>
+<body> 
+    <div class="contenedor">
+        <div class="nombre" id="nombre-id">Juan David López Gómez</div> 
+        <h1>Agregar Actividad y Nota</h1>
+        <form id="formulario-actividad">
+            <input type="text" id="nombre-actividad" placeholder="Nombre de la actividad" required>
+            <input type="number" id="nota-actividad" placeholder="Nota (solo números ejemplo(3,0))" required min="0" max="5" step="0.1">
+            <button type="submit">Agregar</button>
+        </form>
+
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0
         <table id="tabla-actividades">
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Actividad</th>
                     <th>Nota</th>
+<<<<<<< HEAD
                     <th>Modificar</th>
                 </tr>
             </thead>
@@ -55,3 +72,21 @@
     <script src="script.js"></script>
 </body>
 </html>
+=======
+                    <th>Estado del estudiante</th> 
+                    <th>Modificar</th> 
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div id="promedio-container">
+            <strong>Promedio de Notas:</strong> <span id="promedio"></span> 
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+>>>>>>> f48b2b71590ccd49b278ee4374fdcb9819996ca0
